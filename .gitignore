@@ -1,0 +1,20 @@
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# SSH keys
+*.pub
+*.pem
+*.key
+
+# Editor
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Archives
+*.zip
