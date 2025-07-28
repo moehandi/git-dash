@@ -12,13 +12,24 @@ This project provides a simple Bash script, `setup_github_dual_accounts.sh`, to 
   - Setting your global Git identity for the personal account
   - Providing instructions for cloning and configuring repositories for each account
 
+`setup_github_dual_accounts_with_clone.sh` Automates the setup of two separate GitHub accounts by:
+  - Generating SSH keys for each account
+  - Adding the keys to the SSH agent
+  - Displaying public keys for easy addition to GitHub
+  - Writing an SSH config for seamless switching
+  - Setting your global Git identity for the personal account
+  - Providing instructions for cloning and configuring repositories for each account
+  - Providing clone directly in the script
+
 ## Usage
-1. **Save as a file:**  
-  `setup_github_dual_accounts.sh`
+1. **Choose file:**  
+  `setup_github_dual_accounts.sh` : script for setup dual account only
+  or 
+  `setup_github_dual_accounts_with_clone.sh` : script for setup dual account and add repository for clone function
 
 2. **Make it executable:**
     ```bash
-    chmod +x setup_github_dual_accounts.sh
+    chmod +x setup_github_dual_accounts.sh 
     ```
 3. Run the script:
     ```bash
